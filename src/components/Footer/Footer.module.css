@@ -1,0 +1,24 @@
+.footer {
+  width: 200vh;
+  height: 300px;
+  margin-top: 100px;
+  border-top: 1px rgb(39, 39, 39) solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.copyright {
+  font-size: 18px;
+}
+.mediaBox {
+  width: 400px;
+  height: 90px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}

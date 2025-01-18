@@ -1,0 +1,33 @@
+.header {
+  position: sticky;
+  top: 0; /* The point at which it becomes “stuck” */
+  z-index: 1000;
+  width: 100%;
+  height: 80px;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header ul {
+  list-style-type: none; /* Removes bullets */
+
+  display: flex;
+  gap: 50px;
+  font-size: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.header ul :hover {
+  color: #4dce46;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.active {
+  text-decoration: overline;
+  text-decoration-color: #4dce46;
+}

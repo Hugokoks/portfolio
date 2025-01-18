@@ -1,0 +1,10 @@
+.buttonBox {
+  padding: 5px 0;
+  cursor: pointer;
+  transition: 0.2s;
+
+  border-top: 4px solid white;
+}
+.buttonBox:hover {
+  border-top: 4px solid #4dce46;
+}

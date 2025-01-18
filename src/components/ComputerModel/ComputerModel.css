@@ -1,0 +1,9 @@
+.canvasWrapper {
+  width: 800px;
+  height: 600px;
+  margin-left: 15rem;
+
+  cursor: grab;
+}
+canvas {
+}
